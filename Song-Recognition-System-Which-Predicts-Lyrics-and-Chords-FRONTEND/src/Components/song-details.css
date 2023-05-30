@@ -1,0 +1,51 @@
+.album-art {
+  margin: auto;
+  width: 100%;
+  height: 400px;
+  /* background-image: url("../assets/OIP 1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; */
+}
+.album-art-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.details-bar {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.play-button,
+.lyrics-button {
+  border-style: solid;
+  border-width: 2px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.play-button:hover,
+.lyrics-button:hover {
+  background-color: white;
+  color: rgba(var(--bs-dark-rgb), 1);
+}
+
+.song-info-grid {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.thumbnail {
+  width: 100%;
+  border: 3px solid #fff;
+}
+.video-thumbnail{
+  width: 420px;
+  height: 230px;
+  object-fit: cover;
+}

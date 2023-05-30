@@ -1,0 +1,12 @@
+.container-record {
+  height: 600px;
+  width: 100%;
+  padding: 10px;
+}
+
+.failed-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,19 @@
+.container-record {
+  height: 600px;
+  width: 100%;
+  padding: 10px;
+}
+
+.record-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.record-icon {
+  margin-bottom: 25px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}

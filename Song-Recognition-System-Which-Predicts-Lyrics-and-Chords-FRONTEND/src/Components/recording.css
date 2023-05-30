@@ -1,0 +1,42 @@
+.container-record {
+  height: 600px;
+  width: 100%;
+  padding: 10px;
+}
+
+.record-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.recording-icon {
+  margin-bottom: 25px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 8px #434364);
+  animation: start-recording-animation 2s ease-in-out, recording-animation 1.8s ease-in-out 2s infinite;
+}
+
+@keyframes start-recording-animation {
+  0%{
+    filter: drop-shadow(0 0 0px #434364);
+  }
+  100%{
+    filter: drop-shadow(0 0 8px #434364);
+  }
+}
+
+@keyframes recording-animation {
+  0%{
+    filter: drop-shadow(0 0 8px #434364);
+  }
+  50%{
+    filter: drop-shadow(0 0 5px #434364);
+  }
+  100%{
+    filter: drop-shadow(0 0 8px #434364);
+  }
+}
