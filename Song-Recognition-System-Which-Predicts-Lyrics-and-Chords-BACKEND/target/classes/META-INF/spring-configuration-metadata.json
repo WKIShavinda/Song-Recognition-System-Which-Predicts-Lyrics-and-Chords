@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "elasticsearch",
+      "type": "com.fyp.backend.configuration.ElasticConfig",
+      "sourceType": "com.fyp.backend.configuration.ElasticConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "elasticsearch.host",
+      "type": "java.lang.String",
+      "sourceType": "com.fyp.backend.configuration.ElasticConfig"
+    },
+    {
+      "name": "elasticsearch.pass",
+      "type": "java.lang.String",
+      "sourceType": "com.fyp.backend.configuration.ElasticConfig"
+    },
+    {
+      "name": "elasticsearch.user",
+      "type": "java.lang.String",
+      "sourceType": "com.fyp.backend.configuration.ElasticConfig"
+    }
+  ],
+  "hints": []
+}
